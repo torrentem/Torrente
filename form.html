@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="author" content="Marcos Torrente">
+        <title>Mi primer formulario</title>
+    </head>
+<body>
+    <h1>Formulario de registro para la carrera</h1>
+    <form>
+        <label>
+            <b>Nombre</b>:
+            <input type="text" name="Nombre" placeholder="Ingresa tu nombre aquí">
+        </label>
+        <br><br>
+        <label>
+            <b>Apellido</b>:
+            <input type="text" name="Apellido" placeholder="Ingresa tu apellido aquí">
+        </label>
+        <br><br>
+        <label>
+            <b>Selecciona tu país</b>:
+            <select name="País">
+                <option value="1" selected>Selecciona tu país</option>
+                <option value="2">Argentina</option>
+                <option value="3">Brasil</option>
+                <option value="4">Mexico</option>
+                <option value="5">Uruguay</option>
+                <option value="6">Filipinas</option>
+                <option value="7">Australia</option>
+                <option value="8">Serbia</option>
+                <option value="9">Georgia</option>
+                <option value="10">Uzbekistan</option>
+            </select>
+        </label>
+        <br><br>
+        <label>
+            <b>E-Mail</b>:
+            <input type="email" name="email" placeholder="ejemplo@ejemplo.com">
+        </label>
+        <br><br>
+        <label>
+            <b>Trabajás?</b>
+            <br>
+            <input type="radio" name="trabajas" value="Si"><b>Sí</b>
+            <br>
+            <input type="radio" name="trabajas" value="No"><b>No</b>
+        </label>
+        <br><br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
