@@ -49,3 +49,133 @@
     </main>
 </body>
 </html>
+
+<!-- /* 
+Pseudo clases  elementos
+ :nth-child(odd) - par
+ :nth-child(even) - impar
+ :hover - Es cuando pasamos sobre
+ :focus - cuando muestra lo seleccionado.
+
+ ::first-letter - Toma la primer letra 
+ ::before - luego de x contenido
+ ::after - antes de un contenido
+ */
+html *{
+    margin: 0;
+    padding: 0;
+
+}
+body { 
+    margin: 0;
+    padding: 0;
+}
+#background {
+    background-image: url(img/mainBg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    background-color: teal;
+    width: 100vw;
+    height: 100vh;
+}
+#sec2 {
+    padding: 0;
+    margin: 0;
+    background-color: green;
+    width: 100vw;
+    height: 100vh;
+}
+li:nth-child(odd) {
+    background-color: red;
+    color: white;
+}
+li:nth-child(even){
+    background-color: white;
+    color: red;
+}
+li:hover{
+    background-color: green;
+}
+input:focus {
+    background-color: black;
+    color: white;
+}
+
+p::first-letterñ {
+    text-transform: uppercase;
+}
+
+p::after {
+    content: "ipsum:";
+    text-decoration: underline;
+} -->
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOJAS DE ESTILO</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        #matrixa {
+            background-color: black; 
+            color: greenyellow;
+            padding: 20px;
+        }
+
+        .matrix {
+            background-color: black;
+            color: rgb(2, 255, 0);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 15px;
+        }
+          #background2 {
+            padding: 0;
+            margin: 0;
+            background-color: green;
+            width: 100vw;
+            height: 100vh;
+        }
+        /* [title] {
+            color: black;
+            text-decoration: none;
+        } */
+        [title=Tres]{
+            text-decoration: none;
+            color: red;
+            font-size: 3em;
+        }
+    </style> -->
+<!-- </head>
+<body>
+    <div id="background">
+        <header>
+            <div id="logo">
+                Aca va el logo
+            </div>
+            <div id="nav"></div>
+        </header>
+    </div>
+    <div id="sec2">
+        <input type="text">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nesciunt, et a facilis fugiat voluptatem alias neque! Quis vero, suscipit illum et, atque repellendus repudiandae iste quaerat nihil, vel esse?
+        Doloremque doloribus aperiam optio, sapiente, minima enim expedita laboriosam illum id rem itaque non mollitia accusantium, dolor explicabo quisquam ducimus eos! Eius iste corporis repudiandae minus voluptas, similique quod tempore.
+        Explicabo commodi quia ad vel iure eligendi odio, at sunt quod autem, nihil nam accusamus, nesciunt omnis provident fuga inventore sapiente! Aliquam fuga distinctio itaque veritatis deleniti quia vitae quae.</p>
+        Explicabo commodi quia ad vel iure eligendi odio, at sunt quod autem, nihil nam accusamus, nesciunt omnis provident fuga inventore sapiente! Aliquam fuga distinctio itaque veritatis deleniti quia vitae quae.</p>
+        Explicabo commodi quia ad vel iure eligendi odio, at sunt quod autem, nihil nam accusamus, nesciunt omnis provident fuga inventore sapiente! Aliquam fuga distinctio itaque veritatis deleniti quia vitae quae.</p>
+    </div>    
+</body>
+</html> -->
+
+ 
