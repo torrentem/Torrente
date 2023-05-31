@@ -1,0 +1,143 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #cecece;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    padding-left: 20px;
+}
+
+header img {
+    max-width: 18%;
+    float: left;
+}
+
+header nav {
+    height: 100px;
+    padding-top: 15px;
+}
+
+header nav ol li {
+    float: left;
+    list-style-type: none;
+}
+
+header nav ol li a {
+    text-decoration: none;
+    padding: 15px;
+    text-transform: uppercase;
+    display: inline block;
+    color: black;
+}
+
+header nav ol li a:hover {
+    background-color: black;
+    color: white;
+}
+
+main {
+    width: 70%;
+    background-color: #2d3e48;
+    float: left;
+}
+
+main section { 
+    padding: 30px;
+}
+
+main section h2 {
+    color: white;
+    font-size: 1.7em;
+    margin-bottom: 20px;
+}
+
+main section p {
+    color: white;
+    text-align: justify;
+    margin-bottom: 20px;
+    line-height: 1.9em;
+}
+
+aside {
+    width: 30%;
+    background-color: #425067;
+    padding: 30px;
+    float: left;
+}
+
+aside h2, aside ul li {
+    color: white;
+    margin-bottom: 15px;
+}
+
+aside ul li {
+    list-style-type: none;
+    border-bottom: solid;
+}
+
+aside ul li:hover {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+footer {
+    clear: both;
+    width: 70%;
+    background-color: black;
+    padding: 60px;
+}
+
+footer section {
+    width: 33.3%;
+    float: left;
+}
+
+footer section p {
+    color: white;
+    text-align: center;
+}
+
+.card {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    background-color: white;
+    border-radius: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    border-color: black;
+
+}
+
+.card img {
+    padding: 5px 5px 4px 5px;
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.card .content {
+    padding: 0 10px 10px;
+}
+
+.card .content h4 {
+    border-top: 2px solid rgb(230, 230, 230);
+    text-transform: uppercase;
+    padding-top: 5px;
+    
+}
