@@ -6,29 +6,38 @@
 
 body {
     background-color: #cecece;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+/* .container {
+    margin: 0 auto;
+    max-width: 1000px;
+} */
 
 header {
     width: 100%;
-    height: 50px;
-    background-color: white;
+    height: 100px;
+    background-color: #ebc400;
     padding-left: 20px;
 }
 
 header img {
-    max-width: 18%;
-    float: left;
+    padding: 18px;
+    max-width: 30%;
 }
 
 header nav {
+    margin-right: 10px;
     height: 100px;
-    padding-top: 15px;
+    padding-top: 40px;
+    float: right;
 }
 
 header nav ol li {
     float: left;
     list-style-type: none;
+    font-weight: 600;
+    color: white;
 }
 
 header nav ol li a {
@@ -36,12 +45,13 @@ header nav ol li a {
     padding: 15px;
     text-transform: uppercase;
     display: inline block;
-    color: black;
-}
+    color: white;
+    }
 
 header nav ol li a:hover {
     background-color: black;
     color: white;
+    border-radius: 10px;
 }
 
 main {
@@ -71,7 +81,7 @@ aside {
     width: 30%;
     background-color: #425067;
     padding: 30px;
-    float: left;
+    float: right;
 }
 
 aside h2, aside ul li {
@@ -90,11 +100,6 @@ aside ul li:hover {
     border-radius: 10px;
     background-color: black;
 
-}
-
-.container {
-    max-width: 1000px;
-    margin: 0px auto;
 }
 
 footer {
