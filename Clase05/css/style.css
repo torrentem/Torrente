@@ -1,0 +1,186 @@
+@font-face {
+    font-family: 'bebas';
+    src: url(./fonts/Bebas.ttf);
+}
+@font-face {
+    font-family: 'anton';
+    src: url(./fonts/anton.ttf);
+}
+.container {
+    margin: 0 auto;
+    width: 95%;
+    background-color: #efefef;
+    border: 2px solid rgb(172, 172, 172);
+    border-radius: 25px;
+}
+
+.skill {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    color: white;
+    
+}
+
+.html {
+    width: 90%;
+    background-color: #04aa6d;
+    border-radius: 25px;
+}
+
+.PHP {
+    width: 40%;
+    background-color: red;
+    border-radius: 25px;
+}
+
+.wordpress {
+    width: 30%;
+    background-color: blue;
+    border-radius: 25px;
+}
+
+/* Profile Card */
+
+.title {
+    font-family: 'bebas';
+}
+
+.card {
+    margin: auto;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.562);
+    border-radius: 5px;
+}
+
+.card img {
+    margin: 10px;
+    max-width: 70%;
+    padding-bottom: 5px;
+    border-radius: 50%;
+}
+
+.card p, .card a, .card button {
+    font-family: aria;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+    padding-right: 10px
+}
+
+.card button {
+    width: 99.9%;
+    padding: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius:0 0 5px 5px;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-family:'bebas';
+}
+
+.card button:hover {
+    background-color: #777;
+}
+
+.note {
+    margin-bottom: 15px;
+    padding: 4px 12px;
+    border-radius: 5px;
+}
+
+.note.danger {
+    background-color: #ffdddd;
+    border-left: 8px solid #f44336;
+}
+
+.note.warning {
+    background-color: #e3cd5e;
+    border-left: 8px solid orange;
+}
+.note.success {
+    background-color: #ddffdd;
+    border-left: 8px solid green;
+}
+.note.info {
+    background-color: #c3daff;
+    border-left: 8px solid blue;
+}
+
+.card a i {
+    font-size: 30px;
+}
+
+.card a i.fa-brands.fa-twitter {
+    color: rgb(63, 179, 218);
+}
+.card a i.fa-brands.fa-linkedin {
+    color: rgb(28, 115, 145);
+}
+.card a i.fa-brands.fa-facebook {
+    color: rgb(0, 109, 199);
+}
+
+.scroll {
+    overflow: auto;
+    height: 200px;
+}
+
+.scroll::-webkit-scrollbar {
+    width: 5px;
+}
+.scroll::-webkit-scrollbar-track {
+    background-color: #cecece
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    background-color: #aaaaaa;
+
+}
+
+.tooltip {
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    position: relative;
+}
+
+.tooltip .tooltipText {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    padding: 5px 0;
+    opacity:0;
+    transition: opacity 1s;
+    border-radius: 10px;
+    padding: 13px;
+    position: absolute;
+    left: 50%;
+    bottom: 120%;
+    margin-left: -65px;
+    text-align: center;
+    color: white;
+}
+
+.tooltip:hover .tooltipText {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.tooltip .tooltipText::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #555 transparent transparent;
+
+}
