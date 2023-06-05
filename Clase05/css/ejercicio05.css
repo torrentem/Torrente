@@ -1,0 +1,23 @@
+.square1 {
+    height: 400px;
+    width: 400px;
+    border: 1px solid blue;
+    background-color: lightblue;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.square2 {
+    height: 400px;
+    width: 400px;
+    border: 1px solid blue;
+    background-color: lightblue;
+    margin: 0 auto;
+}
+
+ h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+    font-weight: 100;
+    text-align: center;
+ }
+
