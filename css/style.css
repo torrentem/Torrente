@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Bebas';
+    src: url(../assets/font/Bebas.ttf);
+}
+@font-face {
+    font-family: 'Source';
+    src: url(../assets/font/Source.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    border-left: 13px solid lightgreen;
+    font-family: 'Source';
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, #8996ec, #c889ec);
+    height: 100vh;
+}
+.container {
+    width: 100%;
+    height: 100%;
+}
+h1.logo-site {
+    font-family: 'Bebas';
+    writing-mode: vertical-rl;
+    font-size: 14em;
+    padding-top: 1.4rem;
+    /* border-left: 13px solid lightgreen; */
+    line-height: bolder;
+    color: #000000;
+    float: left;
+    
+}
+div.container h1.logo-site span {
+    color: lightgreen;
+}
+h2 {
+     padding: 2rem;
+    color: lightgreen;
+    padding: 5px;    
+}
